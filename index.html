@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>this is just a POC</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="libs/leader-line.min.js"></script>
+    <style>
+        .bar {
+            height: 100%;
+            width: 50px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            background-color: darkslategray;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            right: 0;
+        }
+
+        .bar>img {
+            margin: 5px;
+            border-radius: 50px;
+            border: 2px solid white;
+        }
+
+        .main {
+            margin-left: 50px;
+            margin-right: 50px;
+            /* Same as the width of the sidenav */
+            font-size: 28px;
+            /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar left">
+        <img src="assets/instagram.svg" alt="istagram" height="40" width="40" id="left-instagram">
+        <img src="assets/facebook.svg" alt="istagram" height="40" width="40">
+        <img src="assets/telegram.svg" alt="istagram" height="40" width="40">
+        <img src="assets/twitter.svg" alt="istagram" height="40" width="40">
+    </div>
+
+    <div class="main">
+        <center>
+            <h2>Lorem, ipsum dolor.</h2>
+        </center>
+    </div>
+    <div class="bar right">
+        <img src="assets/instagram.svg" alt="istagram" height="40" width="40">
+        <img src="assets/facebook.svg" alt="istagram" height="40" width="40">
+        <img src="assets/telegram.svg" alt="istagram" height="40" width="40">
+        <img src="assets/twitter.svg" alt="istagram" height="40" width="40" id="right-instagram">
+    </div>
+</body>
+<script src="libs/leader-line.min.js"></script>
+<script src="index.js"></script>
+
+</html>
