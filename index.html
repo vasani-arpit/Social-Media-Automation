@@ -17,6 +17,12 @@
         crossorigin="anonymous"></script>
     <script src="libs/leader-line.min.js"></script>
     <style>
+        html,
+        body {
+            height: 100%;
+            min-height: 100%;
+        }
+
         .bar {
             height: 100%;
             width: 50px;
@@ -27,6 +33,7 @@
             overflow-x: hidden;
             padding-top: 20px;
         }
+
         .left {
             left: 0;
         }
@@ -35,13 +42,17 @@
             right: 0;
         }
 
-        .bar>img {
+        .bar img {
             margin: 5px;
             border-radius: 50px;
             border: 2px solid white;
+            background-color: white;
+            vertical-align: middle;
         }
 
         .main {
+            height: 100%;
+            min-height: 100%;
             margin-left: 50px;
             margin-right: 50px;
             /* Same as the width of the sidenav */
@@ -49,36 +60,72 @@
             /* Increased text to enable scrolling */
             padding: 0px 10px;
         }
-        .dashboard{
+
+        .main>p {
+            text-align: center;
+        }
+
+        .dashboard {
             height: 300px;
             width: 300px;
             background-color: #8a6d3b;
             border-radius: 300px;
+            padding: 20px;
+        }
+
+        .main-circle {
+            min-height: 95%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
     </style>
 </head>
 
 <body>
-    <div class="bar left">
-        <img src="assets/instagram.svg" alt="istagram" height="40" width="40" id="left-instagram">
-        <img src="assets/facebook.svg" alt="istagram" height="40" width="40">
-        <img src="assets/telegram.svg" alt="istagram" height="40" width="40">
-        <img src="assets/twitter.svg" alt="istagram" height="40" width="40">
+    <div class="bar left img-container">
+        <div class="img-content">
+            <img src="assets/instagram.svg" alt="istagram" height="40" width="40" id="left-instagram">
+            <img src="assets/facebook.svg" alt="istagram" height="40" width="40">
+            <img src="assets/telegram.svg" alt="istagram" height="40" width="40">
+            <img src="assets/twitter.svg" alt="istagram" height="40" width="40">
+            <img src="assets/behance.svg" alt="istagram" height="40" width="40">
+            <img src="assets/blogger.svg" alt="istagram" height="40" width="40">
+            <img src="assets/linkedin.svg" alt="istagram" height="40" width="40">
+            <img src="assets/pinterest.svg" alt="istagram" height="40" width="40">
+            <img src="assets/skype.svg" alt="istagram" height="40" width="40">
+            <img src="assets/whatsapp.svg" alt="istagram" height="40" width="40">
+            <img src="assets/youtube.svg" alt="istagram" height="40" width="40">
+        </div>
     </div>
 
     <div class="main">
-        <center>
-            <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="main-circle">
             <div class="dashboard">
-    
+                <!-- pending approval  -->
+                <div>
+                    <!-- <p>Pending for approval</p>
+                    <p>256</p> -->
+                </div>
+                <!-- messages scheduled  -->
+                <!-- messages sent -->
             </div>
-        </center>
+        </div>
     </div>
     <div class="bar right">
         <img src="assets/instagram.svg" alt="istagram" height="40" width="40">
         <img src="assets/facebook.svg" alt="istagram" height="40" width="40">
         <img src="assets/telegram.svg" alt="istagram" height="40" width="40">
         <img src="assets/twitter.svg" alt="istagram" height="40" width="40" id="right-instagram">
+        <img src="assets/behance.svg" alt="istagram" height="40" width="40">
+        <img src="assets/blogger.svg" alt="istagram" height="40" width="40">
+        <img src="assets/linkedin.svg" alt="istagram" height="40" width="40">
+        <img src="assets/pinterest.svg" alt="istagram" height="40" width="40">
+        <img src="assets/skype.svg" alt="istagram" height="40" width="40">
+        <img src="assets/whatsapp.svg" alt="istagram" height="40" width="40">
+        <img src="assets/youtube.svg" alt="istagram" height="40" width="40">
     </div>
 </body>
 <script src="libs/leader-line.min.js"></script>
