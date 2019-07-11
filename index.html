@@ -73,12 +73,36 @@
             padding: 20px;
         }
 
+        .dashboard p {
+            margin: 0;
+        }
+
         .main-circle {
             min-height: 95%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+        }
+
+        .small-label {
+            font-size: small;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .white {
+            color: white;
+        }
+
+        .offwhite {
+            color: gainsboro;
+        }
+
+        .margin50 {
+            margin-top: 50px;
         }
     </style>
 </head>
@@ -105,12 +129,24 @@
         <div class="main-circle">
             <div class="dashboard">
                 <!-- pending approval  -->
-                <div>
-                    <!-- <p>Pending for approval</p>
-                    <p>256</p> -->
+                <div class="row margin50">
+                    <div class="col-md-6 center col-md-offset-3">
+                        <p class="small-label offwhite">Pending for approval</p>
+                        <p class="center white">256</p>
+                    </div>
                 </div>
                 <!-- messages scheduled  -->
-                <!-- messages sent -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="small-label center offwhite">Posts Scheduled for future</p>
+                        <p class="center white">256</p>
+                    </div>
+                    <!-- messages sent -->
+                    <div class="col-md-6">
+                        <p class="small-label center offwhite">Posts sent to social media</p>
+                        <p class="center white">256</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
