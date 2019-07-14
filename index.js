@@ -1,15 +1,13 @@
-var line = new LeaderLine(
-    document.querySelector("#left-instagram"),
-    document.querySelector(".dashboard"),
-    {
-        dash: { len: 4, gap: 25, animation: { duration: 200 } },
-        middleLabel: LeaderLine.pathLabel({ text: `This is additional label` }),
-        endPlug: "arrow2"
-    });
-
-var postReceived = () => {
-    line.setOptions({ dash: { len: 300, gap: 900, animation: { duration: 2000 } } });
-    setTimeout(() => {
-        line.setOptions({ dash: { len: 4, gap: 25, animation: { duration: 200 } } });
-    }, 1500);
-}
+var lineHelper = new LineHelper();
+lineHelper.drawLine("#left-instagram", ".dashboard");
+lineHelper.drawLine("#left-facebook", ".dashboard");
+lineHelper.drawLine("#left-pinterest", ".dashboard");
+lineHelper.drawLine("#left-linkedin", ".dashboard");
+lineHelper.drawLine("#left-telegram", ".dashboard");
+lineHelper.drawLine("#left-twitter", ".dashboard");
+lineHelper.drawLine("#left-skype", ".dashboard");
+lineHelper.drawLine(".dashboard", "#right-instagram");
+lineHelper.drawLine(".dashboard", "#right-twitter");
+lineHelper.drawLine(".dashboard", "#right-facebook");
+lineHelper.drawLine(".dashboard", "#right-skype");
+//lineHelper.highlightLine("#left-twitter", ".dashboard","message");
