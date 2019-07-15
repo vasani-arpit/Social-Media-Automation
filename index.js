@@ -10,4 +10,4 @@ lineHelper.drawLine(".dashboard", "#right-instagram");
 lineHelper.drawLine(".dashboard", "#right-twitter");
 lineHelper.drawLine(".dashboard", "#right-facebook");
 lineHelper.drawLine(".dashboard", "#right-skype");
-//lineHelper.highlightLine("#left-twitter", ".dashboard","message");
+//lineHelper.highlightLine("#left-twitter", ".dashboard","New post received");
