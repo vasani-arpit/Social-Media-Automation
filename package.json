@@ -5,12 +5,16 @@
     "main": "main.js",
     "scripts": {
         "start": "electron .",
-        "build": "electron-packager . Social-Media"
+        "build": "electron-packager . \"Social Media Automation\""
     },
     "author": "Arpit Vasani, Parshwa Kapadia",
     "license": "MIT",
     "devDependencies": {
+        "electron": "^6.0.1",
         "electron-packager": "^3.2.0",
-        "electron-prebuilt": "^0.25.2"
+        "electron-prebuilt": "^1.4.13"
+    },
+    "dependencies": {
+        "puppeteer-core": "^1.19.0"
     }
 }

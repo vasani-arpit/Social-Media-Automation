@@ -12,4 +12,4 @@ lineHelper.drawLine(".dashboard", "#right-facebook");
 lineHelper.drawLine(".dashboard", "#right-skype");
 //lineHelper.highlightLine("#left-twitter", ".dashboard","New post received");
 $("p.center.white").numberAnimate();
-//$("p.center").numberAnimate("set",400);
+//$("p.center.white").numberAnimate("set",400);

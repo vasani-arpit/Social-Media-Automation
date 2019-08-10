@@ -2,7 +2,7 @@
 
 function LineHelper() {
     var normalLineConfigs = {
-        dash: { len: 4, gap: 25, animation: { duration: 200 } },
+        dash: { len: 10, gap: 25, animation: { duration: 200 } },
         endPlug: "arrow2",
         hide:true
     };
