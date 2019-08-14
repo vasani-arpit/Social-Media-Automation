@@ -7,7 +7,7 @@ function LineHelper() {
         hide:true
     };
     var highlightLineConfigs = {
-        dash: { len: 300, gap: 900, animation: { duration: 2000 } },
+        dash: { len: 500, gap: 900, animation: { duration: 2000 } },
         endPlug: "arrow2",
         hide:true
     };
@@ -33,7 +33,6 @@ function LineHelper() {
     }
 
     this.highlightLine = function (startElement, EndElement, message) {
-        console.log(`Which one?`);
         //find the line 
         var line = this.allLines.find(line => line.from === startElement && line.to === EndElement);
         //remove the line 
@@ -43,14 +42,14 @@ function LineHelper() {
         var highlightLine = new LeaderLine(
             checkOrGetElement(startElement),
             LeaderLine.pointAnchor({ element: checkOrGetElement(EndElement), x: -5, y: '50%' }),
-            highlightLineConfigs
+            highlightLineConfigs,
         );
         highlightLine.show("draw");
         //create a new for a 1500ms
         setTimeout(() => {
             highlightLine.remove();
             this.drawLine(startElement, EndElement);
-        }, 1500)
+        }, 5000)
         //create the normal line again
     }
 
