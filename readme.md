@@ -20,11 +20,11 @@ This app does that.
 
 ### 🤔 Problem
 
-I like being on social media. But if you want to grow your audience they really make it hard to do so. First, you have to manage so many of them. Twitter, Facebook, Instagram, LinkedIn, Reddit, Youtube and list goes on ... now one parson can be active on 1 or two of them but being active on all of them daily is heavy task. But they won't take you seriously if you are not active and not engaging with posts(or putting one). Which results in you not having enough audience or exposure to that platform.
+I like being on social media. But if you want to grow your audience they really make it hard to do so. First, you have to manage so many of them. Twitter, Facebook, Instagram, LinkedIn, Reddit, Youtube and list goes on ... Second, You have to be active on them. Now one person can be active on 1 or two of them but being active on all of them daily is heavy task. But they won't take you seriously if you are not active and not engaging with posts(or putting one). Which results in you not having enough audience or exposure in that platform.
 
 They are doing this because they want to promote their paid products like in facebook they ask person who posted for money to make this post reachable to all of his/her followers. While linkedIn offers paid membership based on how active you are on their platform. 
 
-Ultimately, They track who is active and who is not and order their feed based on that. If you are active then you will get audience automatically which is organic to your content which will make you use(or be active on) that platform more than other platforms. 
+Ultimately, They track who is active and who is not and order other's feed based on that. If you are active then you will get audience automatically which is organic to your content which will make you use(or be active on) that platform more than other platforms. 
 
 So, This is their way to attract you by giving you incentives every once in a while. It's common psychology practice. 
 
@@ -54,18 +54,22 @@ That's where we need you.
 
 ![we-want-you-to-contribute](https://user-images.githubusercontent.com/6497827/63040885-1d9a8e80-bee4-11e9-900e-ff4920762e52.jpg)
 
-#### Yeah, I can help I am highly experienced developer
+#### Yeah, I can help. I am highly experienced developer
 We need someone like you to create a coding architecture. So, that code can be scalable to any use case. also, as this is a open source there will be lot of PRs with a junky code which may be refactored to a simple statements. we need you to use your expertise in that area. 
 
-#### Yes, I am learning things and I think I can help
+#### Yes, I am learning programming and I think I can help
 Well, you are at right location. have a look at issues and take one which you think you can perform. also just looking and understanding the code will also help you learn a few tricks. you can also add comments to existing code. Even a small comments can speed up the developing process for others. 
 
 #### okay, But I am not a develper
-That's fine. not everyone meant to be. You can think of a tasks which is troubling you and which you think can be automated. Raise an issue here. Maybe some developer might have the same problem and decide to work on it. Which will benifit us all.
+That's fine. not everyone meant to be. You can think of a tasks which is troubling you and which you think can be automated. Raise an issue here. Maybe some developer might have the same problem and decide to work on it. Which will benefit us all.
 
 #### oh yeah, I am a social media influancer and I have a use case in mind
 
-That's exactly for these technologies has been invented, to solve the problems we are having in day-to-day lives. Write/explain your use case in the issues section and we will make it happen. 
+That's exactly for these technologies has been invented, to solve the problems we are having in day-to-day lives. Write/explain your use case in the issues section and we will make it happen.
+
+#### I am a social media manager and I can explain how each social media works
+
+Well, We have been waiting for you. Pick up a issue which suits you are comment on it.
 
 
 
@@ -86,6 +90,10 @@ That's exactly for these technologies has been invented, to solve the problems w
 * **How do I contact you?**
 
   If you find an issue, please report it here. For everything else, please drop me a line at vasani.arpit@gmail.com
+
+* **Do you have any other projects?**
+  
+  I thought you'd never ask. Yes I do. [Wbot](https://github.com/vasani-arpit/WBOT) is one of them.
 
 ## 📄 Legal 
 
