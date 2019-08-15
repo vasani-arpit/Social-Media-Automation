@@ -8,6 +8,7 @@ lineHelper.drawLine(".dashboard", "#right-instagram");
 lineHelper.drawLine(".dashboard", "#right-twitter");
 lineHelper.drawLine(".dashboard", "#right-facebook");
 lineHelper.drawLine(".dashboard", "#right-skype");
+$("p.center.white").numberAnimate();
 //lineHelper.highlightLine("#left-twitter", ".dashboard","New post received");
 //$("p.center.white").numberAnimate("set",400);
 
