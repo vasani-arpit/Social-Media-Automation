@@ -1,42 +1,43 @@
+
 # Social Media Automation 
 An automated solution to a social media problem. 
 
 ## 🔍 Preview
 ![Social media Automation gif Preview](https://user-images.githubusercontent.com/6497827/63050003-aa027c80-bef7-11e9-95a7-5cdbace131dc.gif)
-*Sorry for sluggish graphics rendering. My PC can't handle chrome and screen recording software both at the same time*
+*Sorry for sluggish graphics rendering. My PC can't handle chrome and screen recording software both at the same time.
 
 
 ## ❓ What is this?
 
-This is a desktop app for all platforms (mac, windows, and Linux) which can automate your all social media platforms. As you can see in the preview you can create scenarios like let's say when something happens on the one social media it will be re-posted to another one(or same one but on a different account). 
+This is a desktop app for all platforms (Mac, Windows, and Linux) which can automate all of your social media activity. As you can see in the preview, you can create scenarios like when you post something on one social media, it will be re-posted to another one (or same one but on a different account). 
 
-This app also lets you schedule posts for any social media. In case, you don't want to be online at a certain time or maybe your audience is in a different timezone than you.
+This app also lets you schedule posts for any social media. For example when you don't want to be online at a certain time or maybe your audience is in a different timezone than you.
 
-Just imagine you are a big corporate like marvel and want to post certain news on all social media accounts at the same time. 
+Just imagine you are a big corporate like Marvel and you want to post certain news on all social media accounts at the same time. 
 
-Or you are a Social media influencer and you want to like/retweet all the post which shows up in certain #️⃣hashtag on twitter or Instagram.
+Maybe, you are a social media influencer and you want to like/retweet all the posts which show up with a certain #️⃣hashtag on twitter or Instagram.
 
 This app does that.
 
 ### 🤔 Problem
 
-I like being on social media. But if you want to grow your audience they really make it hard to do so. First, you have to manage so many of them. Twitter, Facebook, Instagram, LinkedIn, Reddit, Youtube, and the list goes on ... Second, you have to be active on them. Now one person can be active on 1 or two of them but being active on all of them daily is a heavy task. But they won't take you seriously if you are not active and not engaging with posts(or putting one). Which results in you not having enough audience or exposure in that platform.
+I like being on social media but if you want to grow your audience they really make it hard to do so. First, you have to manage so many of them. Twitter, Facebook, Instagram, LinkedIn, Reddit, Youtube, and the list goes on and on. Second, you have to be active on them. Now one person can be active on 1 or two of them but being active on all of them daily is a cumbersome task. But they won't take you seriously if you are not active and not engaging them with posts (or putting one) which results in you not having enough audience or exposure on that platform.
 
-They are doing this because they want to promote their paid products like in facebook they ask the person who posted for money to make this post reachable to all of his/her followers. While LinkedIn offers paid membership based on how active you are on their platform. 
+They are doing this because they want to promote their paid products. In Facebook they ask the person who posted for money to make this post reachable to all of his/her followers while LinkedIn offers paid membership based on how active you are on their platform. 
 
-Ultimately, They track who is active and who is not and order other's feed based on that. If you are active then you will get audience automatically which is organic to your content which will make you use(or be active on) that platform more than other platforms. 
+Ultimately, they track who is active and who is not and order other's feed based on that. If you are active then you will get audience automatically which is organic to your content  and which will make you use (or be active) on that platform more than other platforms. 
 
-So, This is their way to attract you by giving you incentives every once in a while. It's a common psychology practice.
+So, this is their way to attract you by giving you incentives every once in a while. It's a common psychology practice.
 
 But I don't have 1 hour a day for each one (and how could I? there are dozens of them) and I want to be active for that shiny incentive which I am lured into. 
 
 ### 💡 Solution
 
-The Solution to this problem is a bot. It will act as logged in user and do the activities the same as that user do. So that platform thinks that user is active and organically help the user to gain more followers or an audience reach.
+The solution to this problem is a bot. It will act as a logged in user and do the same activities as the user. So that platform thinks that the user is active and automatically helps the user to gain more followers and bigger audience reach.
 
-## 🤨 How it will work?
+## 🤨 How  will it work?
 
-We will use libraries like Google Puppeteer, ElectronJS and official API of to automate. It will mimic the same steps you would do on the web but it will do it automatically without human interaction. You can always see what it's doing and intervene/stop it at any point in time.
+We will use libraries like Google Puppeteer, ElectronJS and official API's to automate. It will mimic the same steps you would do on the web but it will do it automatically without human interaction. You can always see what it's doing and intervene/stop it at any point in time.
 
 ## ⚡ Features
 
@@ -55,21 +56,21 @@ That's where we need you.
 ![we-want-you-to-contribute](https://user-images.githubusercontent.com/6497827/63040885-1d9a8e80-bee4-11e9-900e-ff4920762e52.jpg)
 
 #### Yeah, I can help. I am a highly experienced developer
-We need someone like you to create a coding architecture. So, that code can be scalable to any use case. also, as this is an open source there will be a lot of PRs with a junky code which may be refactored to a simple statement. we need you to use your expertise in that area. 
+We need someone like you to create a coding architecture so that code can be scalable to any use case. Also, as this is open source, there will be lots of PRs with junky code which will need to be refactored. We need you to use your expertise in that area. 
 
 #### Yes, I am learning programming and I think I can help
-Well, you are at the right location. have a look at issues and take one which you think you can perform. also just looking and understanding the code will also help you learn a few tricks. you can also add comments to existing code. Even small comments can speed up the developing process for others. 
+Well, you are at the right location. Have a look at the issues and take one which you think you can fix. Also just looking and understanding the code will help you learn a few tricks. You can also add comments to existing code. Even small comments can speed up the developing process for others. 
 
 #### okay, but I am not a developer
-That's fine. not everyone meant to be. You can think of tasks which is troubling you and which you think can be automated. Raise an issue here. Maybe some developer might have the same problem and decide to work on it which will benefit us all.
+That's fine. Not everyone has to be one. You can think of tasks which is troubling you and which you think can be automated. Raise an issue here. Maybe some developer might have the same problem and decide to work on it which will benefit us all.
 
 #### oh yeah, I am a social media influencer and I have a use case in mind
 
-That's exactly for these technologies has been invented, to solve the problems we are having in day-to-day lives. Write/explain your use case in the issues section and we will make it happen.
+That's exactly why these technologies has been invented - to solve the problems we are facing in our day-to-day lives. Please write/explain your use case in the issues section and we will incorporate it into our codebase soon.
 
 #### I am a social media manager and I can explain how each social media works
 
-Well, We have been waiting for you. Pick up an issue which suits you. and comment on it.
+Well, we have been waiting for you. Pick up an issue which suits you and comment on it.
 
 
 
@@ -77,11 +78,11 @@ Well, We have been waiting for you. Pick up an issue which suits you. and commen
 
 * **Is this app built with NodeJS?**
   
-  Yes, it's built with [NodeJS](https://nodejs.org/en/).
+  Yes, it is built with [NodeJS](https://nodejs.org/en/).
 
 * **What boilerplate did you use?**
 
-  None. The idea was to get a better understanding of how things work together, But I do take a clue from other projects.
+  None. The idea was to get a better understanding of how things work together, but I did take clues from other projects.
 
 * **Are you available for hire?**
 
@@ -97,7 +98,7 @@ Well, We have been waiting for you. Pick up an issue which suits you. and commen
 
 ## 📄 Legal 
 
-This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by any social media platforms it provides services for or any of its affiliates or subsidiaries. This is an independent and unofficial software. Use at your own risk. **Commercial use of this code/repo is strictly prohibited.**
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by any social media platforms or any of its affiliates or subsidiaries for which it provides its services. This is an independent and unofficial software. Use at your own risk. **Commercial use of this code/repo is strictly prohibited.**
 
 
 ## 👋 Contact Me 👋
@@ -112,3 +113,6 @@ This code is in no way affiliated with, authorized, maintained, sponsored or end
 [twitter]: https://twitter.com/ArpitVasani
 [telegram]: http://t.me/Arpit_Vasani
 [gmail]: mailto:vasani.arpit@gmail.com?subject=Regarding%20Wbot&body=Hi
+
+
+```
