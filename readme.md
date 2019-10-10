@@ -113,6 +113,3 @@ This code is in no way affiliated with, authorized, maintained, sponsored or end
 [twitter]: https://twitter.com/ArpitVasani
 [telegram]: http://t.me/Arpit_Vasani
 [gmail]: mailto:vasani.arpit@gmail.com?subject=Regarding%20Wbot&body=Hi
-
-
-```
