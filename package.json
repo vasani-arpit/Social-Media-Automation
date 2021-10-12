@@ -9,7 +9,7 @@
     "author": "Arpit Vasani, Parshwa Kapadia",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^6.0.1"
+        "electron": "^11.5.0"
     },
     "dependencies": {
         "puppeteer-core": "^1.19.0"
