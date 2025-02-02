@@ -39,6 +39,14 @@ The solution to this problem is a bot. It will act as a logged in user and do th
 
 We will use libraries like Google Puppeteer, ElectronJS and official API's to automate. It will mimic the same steps you would do on the web but it will do it automatically without human interaction. You can always see what it's doing and intervene/stop it at any point in time.
 
+## ⚙ How to run
+
+  - Clone the repo using `git clone`
+  - Enter into the dir `cd Social-Media-Automation`
+  - Install required packages `npm install`
+  - Start the server `npm start`
+
+
 ## ⚡ Features
 
  - 💯 Totally Free for personal use
