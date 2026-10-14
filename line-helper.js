@@ -14,13 +14,27 @@ function LineHelper() {
 
     this.allLines = [];
     this.drawLine = function (startElement, EndElement) {
+        var startNode = checkOrGetElement(startElement);
+        var endNode = checkOrGetElement(EndElement);
 
-        //draw line from start element to element
-        console.log(checkOrGetElement(startElement));
+        if (!startNode || !endNode) {
+            return;
+        }
+
+        var duplicateLine = this.allLines.find(function (line) {
+            return line.from === startElement && line.to === EndElement;
+        });
+
+        if (duplicateLine) {
+            duplicateLine.line.remove();
+            this.allLines = this.allLines.filter(function (line) {
+                return line !== duplicateLine;
+            });
+        }
 
         var line = new LeaderLine(
-            checkOrGetElement(startElement),
-            LeaderLine.pointAnchor({ element: checkOrGetElement(EndElement), x: -5, y: '50%' }),
+            startNode,
+            LeaderLine.pointAnchor({ element: endNode, x: -5, y: '50%' }),
             normalLineConfigs
         );
 
@@ -33,39 +47,51 @@ function LineHelper() {
     }
 
     this.highlightLine = function (startElement, EndElement, message) {
-        //find the line 
-        var line = this.allLines.find(line => line.from === startElement && line.to === EndElement);
-        //remove the line 
-        line.line.remove();
-        this.allLines.splice(this.allLines.indexOf(line), 1);
-        highlightLineConfigs.middleLabel = LeaderLine.pathLabel({ text: message || `New post received` });
+        var startNode = checkOrGetElement(startElement);
+        var endNode = checkOrGetElement(EndElement);
+
+        if (!startNode || !endNode) {
+            return;
+        }
+
+        var line = this.allLines.find(function (line) {
+            return line.from === startElement && line.to === EndElement;
+        });
+
+        if (line) {
+            line.line.remove();
+            this.allLines = this.allLines.filter(function (item) {
+                return item !== line;
+            });
+        }
+
+        highlightLineConfigs.middleLabel = LeaderLine.pathLabel({ text: message || 'New post received' });
         var highlightLine = new LeaderLine(
-            checkOrGetElement(startElement),
-            LeaderLine.pointAnchor({ element: checkOrGetElement(EndElement), x: -5, y: '50%' }),
+            startNode,
+            LeaderLine.pointAnchor({ element: endNode, x: -5, y: '50%' }),
             highlightLineConfigs,
         );
         highlightLine.show("draw");
-        //create a new for a 1500ms
+
         setTimeout(() => {
             highlightLine.remove();
             this.drawLine(startElement, EndElement);
         }, 5000)
-        //create the normal line again
     }
 
     function checkOrGetElement(element) {
-        //returning element if it is a HTML element already
         if (element instanceof Element || element instanceof HTMLDocument) {
             return element;
-        } else if (typeof element === 'string') {
-            if (document.querySelector(element) !== null) {
-                return document.querySelector(element);
-            } else {
-                throw Error("Invalid element selector");
-            }
-        } else {
-            throw Error("Invalid element selector");
         }
+
+        if (typeof element === 'string') {
+            var foundElement = document.querySelector(element);
+            if (foundElement !== null) {
+                return foundElement;
+            }
+        }
+
+        return null;
     }
 
     return this;
